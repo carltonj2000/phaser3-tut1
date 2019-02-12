@@ -1,0 +1,16 @@
+{
+  "name": "phaser3-tut1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel --no-hmr index.html"
+  },
+  "dependencies": {
+    "phaser": "^3.16.1"
+  },
+  "devDependencies": {
+    "parcel": "^1.11.0",
+    "typescript": "^3.3.3"
+  }
+}
