@@ -7,7 +7,6 @@ export class MenuScene extends phaser.Scene {
     super({ key: CST.SCENES.MENU });
   }
   create() {
-    console.log(CST.IMAGE.LOGO);
     this.add
       .image(
         this.game.renderer.width / 2,

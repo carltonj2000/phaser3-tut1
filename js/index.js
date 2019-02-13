@@ -8,5 +8,11 @@ let game = new phaser.Game({
   width: 800,
   height: 600,
   scene: [LoadScene, PlayScene],
-  render: { pixelArt: true }
+  render: { pixelArt: true },
+  physics: {
+    default: "arcade",
+    arcade: {
+      debug: true
+    }
+  }
 });
